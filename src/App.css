@@ -2,12 +2,15 @@
   text-align: left;
 }
 
-.App-logo {
+.banner {
   height: 10vmin;
   pointer-events: none;
   margin-left: 5px;
 }
 
+.banner-container {
+  width: 100%;
+}
 
 .App-header {
   background-color: #282c34;
@@ -21,7 +24,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #153b46;
 }
 
 @keyframes App-logo-spin {
@@ -46,6 +49,7 @@ li {
   padding-bottom: 25px;
   width: max-content;
   margin-left: 5px;
+  display: inline-block;
 }
 
 .driver-list-item {
@@ -94,4 +98,33 @@ li {
   text-align: center;
   width: 40px;
   margin-right: 3px;
+}
+
+.nav-menu {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 125px;
+  padding-left: 5px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.nav-menu li {
+  margin-top: 15px;
+  font-size: large;
+}
+
+.app-layout {
+  display: inline-flex;
+  padding-left: 5px;
+}
+
+.holding-page {
+  padding-left: 5px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  margin-left: 5px;
+  margin-top: 0px;
+  display: inline-block;
 }

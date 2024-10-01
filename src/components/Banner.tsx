@@ -1,5 +1,9 @@
 import logo from "../assets/logo.png";
 
 export const Banner: React.FC = () => {
-  return <img src={logo} className="App-logo" alt="logo" />;
+  return (
+    <div className="banner-container">
+      <img src={logo} className="banner" alt="logo" />
+    </div>
+  );
 };
