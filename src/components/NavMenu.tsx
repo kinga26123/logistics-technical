@@ -5,11 +5,8 @@ export const NavMenu: React.FC = () => {
     <ul className="nav-menu">
       {menuItems.data.map((item) => {
         return (
-          <li>
-            <a
-              className="App-link"
-              href={item.url}
-            >
+          <li key={item.title}>
+            <a className="App-link" href={item.url}>
               {item.title}
             </a>
           </li>
